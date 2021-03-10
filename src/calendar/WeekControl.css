@@ -1,0 +1,7 @@
+.week-control-btn-group {
+  @apply border border-gray-01 rounded divide-x divide-gray-01;
+}
+
+.week-control-btn {
+  @apply px-3 py-1.5 text-dark-gray-02 focus:outline-none hover:text-primary disabled:text-dark-gray-01 disabled:cursor-not-allowed;
+}
